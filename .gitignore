@@ -1,0 +1,30 @@
+# ignore directories
+out/
+lib/
+log/
+wrk/
+target/
+_*/
+
+# ignore all files ending with ~
+*~
+_*
+
+# other files to ignore
+.classpath
+.project
+.cache
+.settings
+.project
+.idea
+.m2
+.vagrant
+.yum
+.bash_history
+.last*
+
+*.iml
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+
+*.sublime-*
