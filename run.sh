@@ -16,7 +16,7 @@ echo $CLASSPATH
 CFG=/opt/mapr/ignite/apache-ignite-2.2.0/config/default-config.xml
 
 /opt/mapr/spark/spark-current/bin/spark-submit \
-        --class sncr.xdf.ignite.SparkLoader \
+        --class test.ignite.SparkLoader \
        ./lib/ignite-console-1.0-SNAPSHOT-all.jar "$@"
 
 
